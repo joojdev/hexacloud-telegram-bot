@@ -152,8 +152,3 @@ bot.on('message', async (message) => {
 });
 
 console.log('Bot is running...');
-
-const { createServer, startServer } = require('./server');
-
-const httpServer = createServer();
-startServer(httpServer);
